@@ -11,4 +11,6 @@ full_df = load_host_data('./data/listings.csv')
 
 host_data = full_df[['host_id', 'host_url', 'host_name', 'host_location', 'host_about']]
 
-print(host_data.head())
+# print(host_data.head())
+
+# print(host_data.host_location.unique())
