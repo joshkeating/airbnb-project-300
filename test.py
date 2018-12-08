@@ -41,10 +41,12 @@ data1 = load("keywords1")
 data2 = load("keywords2")
 data3 = load("keywords3")
 
-words = ['years', 'home', 'world', 'city', 'love', 'new people', ' university of washington', 'wonderful city', 'life motto', 'interior designer']
+# words = ['years', 'home', 'world', 'city', 'love', 'new people', 'university of washington', 'wonderful city', 'life motto', 'interior designer']
+
+# p value of 0.001
+words = [ 'love', 'new people', 'wonderful city', 'life motto', 'interior designer']
 
 output = {}
-
 
 for elem in data1:
 
